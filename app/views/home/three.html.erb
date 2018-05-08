@@ -1,0 +1,43 @@
+<div class= "text-middle"><div class="to_give_padding">
+
+<br><br>
+
+<div id="cover_4">
+첫번째 코스인 영화 재밌게 보셨나요?
+<br><br>
+<% if @my_genre == "loco"  %>
+    달달하셨나요? ㅎㅎ 
+<% elsif @my_genre =="thriller" %>
+    너무 무서웠죠 ㅠ 다신 못 볼 듯
+<% elsif  @my_genre == "SF" %>
+    흥미진진했죠?
+<% elsif @my_genre == "comedy" %>
+    너무 웃겼죠? 기분 전환되셨나요?
+<% end %>
+
+영화를 재밌게 보셨다면 별점을 매겨 주세요!
+<!-- Split button -->
+<div class="btn-group">
+  <button type="button" class="btn btn-default">별점</button>
+  <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true"  aria-expanded="false">
+    <span class="caret"></span>
+    <span class="sr-only">Toggle Dropdown</span>
+  </button>
+  <ul class="dropdown-menu" role="menu" >
+    <li><a href="#">★</a></li>
+     <li class="divider"></li>
+    <li><a href="#">★★</a></li>
+     <li class="divider"></li>
+    <li><a href="#">★★★</a></li>
+     <li class="divider"></li>
+   <li><a href = "#">★★★★</a></li>
+    <li class="divider"></li>
+    <li><a href = "#">★★★★★</a></li>
+    <li class="divider"></li>
+    
+  </ul>
+</div>
+<br>
+<a class="btn btn-outline-warning" href="/home/three_1" role="button" style="background-color: #FFFFFF; box-shadow: 0 2px 8px #999;"><div class="to_big">그렇다면 다음 코스로!</div></a>
+</div></div>
+</div>

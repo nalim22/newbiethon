@@ -1,0 +1,166 @@
+// Place all the styles related to the home controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+/*!
+ * Start Bootstrap - Agency v4.1.1 (https://startbootstrap.com/template-overviews/agency)
+ * Copyright 2013-2018 Start Bootstrap
+ * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-agency/blob/master/LICENSE)
+ */
+@import url(https://cdn.rawgit.com/moonspam/NanumSquare/master/nanumsquare.css);
+@import url(https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_two@1.0/NanumBarunpen.css);
+@import url(https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_three@1.1/SangSangShinb7.css);
+
+nav {
+    box-shadow: 0 2px 8px #999;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding: 0;
+}
+
+.nav_logo {
+    font-family: 'SangSangShinb7';
+    font-size: 40px;
+    padding: 20;
+}
+
+.dropdown-menu {
+
+}
+
+.dropdown-menu > li {
+    display: inline-block;
+}
+.to_big {
+    font-family: 'NanumSquareRound';
+    font-size: 23px;
+    color: #2A5E23;
+
+}
+
+.to_give_padding {
+    font-family: 'SangSangShinb7';
+    font-size: 80px;
+    padding-top: 10px;
+    
+}
+
+#sec_cover {
+    background-color: #f0f8ff;
+    text-align: center;
+    height: 1000px;
+    box-shadow: 0 2px 8px #999;
+}
+
+#third_cover {
+    background-color: #f0f8ff;
+    text-align: center;
+    height: 100%;
+    box-shadow: 0 2px 8px #999;
+}
+
+.dropdown {
+    display: inline-block;
+}
+
+.cover {
+    box-sizing: border-box;
+    top: 0;
+    height: 900px;
+    width: 100%;
+    position: relative;
+    bottom: 100px;
+    text-align: center;
+    z-index: 100;
+    margin-bottom: 50px;
+    background-size: 100% 100%;
+    background-image: url(/1.jpg);
+    box-shadow: 0 2px 8px #999;
+}
+
+.page_four_cover {
+    box-sizing: border-box;
+    top: 0;
+    height: 300px;
+    width: 100%;
+    position: relative;
+    bottom: 100px;
+    text-align: center;
+    z-index: 100;
+    margin-bottom: 50px;
+    background-size: 100%;
+    background-image: url(/travel_four.jpg);
+    box-shadow: 0 2px 8px #999;
+}
+.page_last_cover {
+    box-sizing: border-box;
+    top: 0;
+    height: 700px;
+    width: 100%;
+    position: relative;
+    bottom: 100px;
+    text-align: center;
+    z-index: 100;
+    background-size: 100% 100%;
+    background-image: url(/last_pic.jpg);
+    box-shadow: 0 2px 8px #999;
+}
+
+.page_last_cover_2 {
+    box-sizing: border-box;
+    top: 0;
+    height: 700px;
+    width: 100%;
+    position: relative;
+    bottom: 100px;
+    text-align: center;
+    z-index: 100;
+    background-size: 100% 100%;
+    background-image: url(/last_2.jpg);
+    box-shadow: 0 2px 8px #999;
+}
+
+#end {
+    padding-top: 200px;
+}
+
+
+.cover_title {
+    padding-top: 20%;
+    font-family: 'NanumSquareRound', sans-serif;
+    font-size: 60px;
+    color: white;
+}
+
+h5,p { 
+    font-size: 20px;
+    font-family: 'NanumBarunpen', sans-serif !important;
+}
+
+h1 {
+  font-size: 40px;
+  font-family: 'NanumSquare', sans-serif !important;
+  
+}
+
+.text-center{
+    padding-top: 20%;
+}
+
+.text-middle{
+    padding-top: 10%;
+    text-align: center;
+}
+
+.divider{
+    position:absolute;
+    left:50%;
+    top:10%;
+    bottom:10%;
+    border-left:1px solid white;
+}
+
+.btn-group{
+    padding-top: 10%;
+    text-align: center;
+}
