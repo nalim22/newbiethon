@@ -127,6 +127,6 @@ class HomeController < ApplicationController
       end
       user.save
     end
-  endㄴ
+  end
 end
   
